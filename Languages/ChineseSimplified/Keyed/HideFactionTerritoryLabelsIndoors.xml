@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HideTerritoryLabels_Disable>不绘制派系领土名称</HideTerritoryLabels_Disable>
+  <HideTerritoryLabels_DisableTip>勾选后，Faction Territories and Vassalage 不再在世界地图和太空地点上画出派系名称。领土色块和边界仍按原模组显示。\n\n取消勾选后名称恢复。太空地点里，名称落在有屋顶的房间上时仍然不画。</HideTerritoryLabels_DisableTip>
+  <HideTerritoryLabels_DisabledNote>当前不绘制派系名称。世界地图和太空地点都不会出现这些文字。</HideTerritoryLabels_DisabledNote>
+  <HideTerritoryLabels_EnabledNote>当前会绘制派系名称。太空地点的室内仍会挡住落在屋顶上的文字。</HideTerritoryLabels_EnabledNote>
+</LanguageData>

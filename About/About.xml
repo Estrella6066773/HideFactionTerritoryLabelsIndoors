@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>太空地点室内隐藏派系领土名称 (Hide Faction Territory Labels Indoors)</name>
+  <author>Estrella6066</author>
+  <packageId>Estrella6066.hideFactionTerritoryLabelsIndoors</packageId>
+  <modVersion>1.1.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Faction Territories and Vassalage 会在星球表面标出派系名称。奥德赛的太空地点会把星球画在地图后面，这些名称是屏幕上的界面文字，房间屋顶挡不住，站在室内仍会看到。
+
+模组设置里可以整段关掉这些名称，世界地图和太空地点都不再绘制。默认就是关掉的。取消勾选后名称恢复；太空地点里，名称落在有屋顶的格子上时仍不绘制。领土色块和边界不受影响。
+
+需要 Harmony、Faction Territories and Vassalage，以及奥德赛资料片。
+</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <!--
+        这两个地址不是装饰：ModMetaData.ValidateDependencies 会在「既没有 downloadUrl 也没有 steamWorkshopUrl」
+        时认为该依赖项不合格，除了打印一条警告，还会把这条依赖整个从列表里删掉。
+      -->
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>jaeger972.factionterritories</packageId>
+      <displayName>Faction Territories and Vassalage</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3626725895</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>NozoMe.MapModeFramework</li>
+    <li>jaeger972.factionterritories</li>
+  </loadAfter>
+</ModMetaData>
